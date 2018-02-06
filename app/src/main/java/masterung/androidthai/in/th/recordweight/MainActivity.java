@@ -16,6 +16,18 @@ public class MainActivity extends AppCompatActivity {
 
         myManager = new MyManager(MainActivity.this);
 
+
+//        Test Add USer
+
+//        testAddUSer();
+
+
+
+
     }   // Main Method
+
+    private void testAddUSer() {
+        myManager.addValueToUserTABLE("nick", "app", "weight", "height", "gender", "age");
+    }
 
 }   // Main Class
